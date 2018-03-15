@@ -1,2 +1,2 @@
-# NoClaimDiscountSolidity
-No Claim Discount Example Blockchain DApp
+# NoClaimDiscountDemo
+No Claim Discount Demo Blockchain DApp with Android App

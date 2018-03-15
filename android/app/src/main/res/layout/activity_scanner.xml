@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.jamieburns.noclaimdiscount.activity.ScannerActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To verify your current No Claims Discount, scan the QR Code provided with your policy documents.\n"/>
+
+        <Button
+                android:id="@+id/scanQrCode"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="Scan QR Code"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+        <com.robinhood.ticker.TickerView
+                android:id="@+id/entitlementTicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text=""
+                android:textColor="?colorPrimary"
+                android:textSize="100sp"
+                app:ticker_animationDuration="500"
+                app:ticker_defaultCharacterList="number"/>
+
+        <TextView
+                android:id="@+id/unitOfTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?colorPrimary"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text=""/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,2 +1,2 @@
 # NoClaimDiscountDemo
-No Claim Discount Demo Blockchain DApp with Android App
+No Claim Discount Demo Blockchain DApp with Android App and Alexa Skill
